@@ -121,6 +121,29 @@
 
 }
 
+.contactPage h1,
+.contactPage h3 {
+  text-align: center;
+}
+
 .contactForm {
-  
+  border: 1px solid #fff;
+  min-width: 650px;
+  width: 60%;
+  margin: 100px auto;
+  background: #070707;
+}
+
+input, form > button {
+  display: block;
+  height: 50px;
+  width: 650px;
+  margin: 10px auto;
+}
+
+textarea {
+  display: block;
+  height: 450px;
+  width: 650px;
+  margin: 20px auto;
 }
