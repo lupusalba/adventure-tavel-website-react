@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/**********************************************************
+    NAVIGATION
+**********************************************************/
+.navigation {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  padding: 10px;
+  display: flex;
+
+  border:  1px solid #000;
+}
