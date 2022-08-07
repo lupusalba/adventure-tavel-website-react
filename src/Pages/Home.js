@@ -6,7 +6,7 @@ import bgImage from '../images/homeBackground.jpg'
 
 const Home = () => {
   return (
-    <div className="home" style={{ backgroundImage:`url(${bgImage})` }}>
+    <div className="home onePage" style={{ backgroundImage:`url(${bgImage})` }}>
       <Logo />
       <Navigation />
 

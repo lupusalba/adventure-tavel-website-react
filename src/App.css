@@ -5,12 +5,31 @@
 
 
 /**********************************************************
+    Global classes
+**********************************************************/
+.onePage {
+  max-height: 100vh;
+  height: 100vh;
+  max-width: 100vw;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+
+/**********************************************************
     NAVIGATION
 **********************************************************/
 .navigation {
   color: #fff;
   text-transform: uppercase;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+  font-size: 30px;
   display: flex;
   flex-direction: row-reverse;
   position: fixed;
@@ -39,16 +58,7 @@
     Home
 **********************************************************/
 .home {
-  max-height: 100vh;
-  height: 100vh;
-  max-width: 100vw;
-  width: 100vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  color: #fff;
-  font-size: 16px;
+
 }
 
 .intro {
@@ -71,16 +81,46 @@
 }
 
 .btn-explore:hover {
-  border-radius: 20px;
   background-color: #fff;
   color: #000;
   transition: all 500ms ease;
 }
 
 .btn-explore:active {
-  border-radius: 20px;
   background-color: #fff;
   color: #000;
   box-shadow: 3px 1px #000;
   transition: all 500ms ease;
+}
+
+
+
+
+/**********************************************************
+    ABOUT
+**********************************************************/
+.aboutPage {
+ text-align: center;
+ font-size: 24px;
+}
+
+.aboutIntro {
+  margin-top: 220px;
+}
+
+.aboutIntroDescription {
+  width: 60%;
+  margin: 0 auto 30px auto;
+}
+
+
+/**********************************************************
+    ABOUT
+**********************************************************/
+.contactPage {
+
+}
+
+.contactForm {
+  
 }
