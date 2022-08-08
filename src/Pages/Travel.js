@@ -12,6 +12,7 @@ import modernRuin from '../images/modernRuin.jpg'
 import ancientRuin from '../images/ancientRuin.jpg'
 import luxuryResort from '../images/luxuryResort.jpg'
 
+console.log(safari)
 
 const Travel = () => {
   return (
@@ -19,14 +20,15 @@ const Travel = () => {
       <Logo />
       <Navigation />
 
-      <h1>See Our Destinations!</h1>
+      <div className="destinationsBigTitle">
+        <h1>See Our Destinations!</h1>
+      </div>
+      
 
       <div className="travelGrid">
 
         <div className="travelDestination">
-          <div className="travelDestinationImage">
-            <img src={safari} alt={safari} />
-          </div>
+          <div className="travelDestinationImage" style={{ backgroundImage:`url(${safari})` }}></div>
           <div className="travelDetinationInfo">
             <h2 className="destinationTitle">Safari</h2>
             <img src={icon} alt={icon}/>
@@ -34,9 +36,7 @@ const Travel = () => {
         </div>
 
         <div className="travelDestination">
-          <div className="travelDestinationImage">
-            <img src={jungle} alt={jungle} />
-          </div>
+          <div className="travelDestinationImage" style={{ backgroundImage:`url(${jungle})` }}></div>
           <div className="travelDetinationInfo">
             <h2 className="destinationTitle">Jungle</h2>
             <img src={icon} alt={icon}/>
@@ -44,9 +44,7 @@ const Travel = () => {
         </div>
 
         <div className="travelDestination">
-          <div className="travelDestinationImage">
-            <img src={mountain} alt={mountain} />
-          </div>
+          <div className="travelDestinationImage" style={{ backgroundImage:`url(${mountain})` }}></div>
           <div className="travelDetinationInfo">
             <h2 className="destinationTitle">mountain</h2>
             <img src={icon} alt={icon}/>
@@ -54,9 +52,7 @@ const Travel = () => {
         </div>
 
         <div className="travelDestination">
-          <div className="travelDestinationImage">
-            <img src={cave} alt={cave} />
-          </div>
+          <div className="travelDestinationImage" style={{ backgroundImage:`url(${cave})` }}></div>
           <div className="travelDestinationInfo">
             <h2 className="destinationTitle">cave</h2>
             <img src={icon} alt={icon}/>
@@ -64,9 +60,7 @@ const Travel = () => {
         </div>
 
         <div className="travelDestination">
-          <div className="travelDestinationImage">
-            <img src={ancientRuin} alt={ancientRuin} />
-          </div>
+          <div className="travelDestinationImage" style={{ backgroundImage:`url(${ancientRuin})` }}></div>
           <div className="travelDetinationInfo">
             <h2 className="destinationTitle">Ancient Ruin</h2>
             <img src={icon} alt={icon}/>
@@ -74,9 +68,7 @@ const Travel = () => {
         </div>
 
         <div className="travelDestination">
-          <div className="travelDestinationImage">
-            <img src={modernRuin} alt={modernRuin} />
-          </div>
+          <div className="travelDestinationImage" style={{ backgroundImage:`url(${modernRuin})` }}></div>
           <div className="travelDetinationInfo">
             <h2 className="destinationTitle">Modern Ruin</h2>
             <img src={icon} alt={icon}/>
@@ -84,9 +76,7 @@ const Travel = () => {
         </div>
 
         <div className="travelDestination">
-          <div className="travelDestinationImage">
-            <img src={diving} alt={diving} />
-          </div>
+          <div className="travelDestinationImage" style={{ backgroundImage:`url(${diving})` }}></div>
           <div className="travelDetinationInfo">
             <h2 className="destinationTitle">diving</h2>
             <img src={icon} alt={icon}/>
@@ -94,9 +84,7 @@ const Travel = () => {
         </div>
 
         <div className="travelDestination">
-          <div className="travelDestinationImage">
-            <img src={paragliding} alt={paragliding} />
-          </div>
+          <div className="travelDestinationImage" style={{ backgroundImage:`url(${paragliding})` }}></div>
           <div className="travelDetinationInfo">
             <h2 className="destinationTitle">paragliding</h2>
             <img src={icon} alt={icon}/>
@@ -104,9 +92,7 @@ const Travel = () => {
         </div>
 
         <div className="travelDestination">
-          <div className="travelDestinationImage">
-            <img src={luxuryResort} alt={luxuryResort} />
-          </div>
+          <div className="travelDestinationImage" style={{ backgroundImage:`url(${luxuryResort})` }}></div>
           <div className="travelDetinationInfo">
             <h2 className="destinationTitle">luxury Resort</h2>
             <img src={icon} alt={icon}/>

@@ -4,6 +4,7 @@ import Logo from '../Components/Logo'
 import bgImage from '../images/homeBackground.jpg'
 
 
+
 const Home = () => {
   return (
     <div className="home onePage" style={{ backgroundImage:`url(${bgImage})` }}>

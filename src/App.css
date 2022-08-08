@@ -200,6 +200,23 @@ textarea {
   position: relative;
 }
 
+.destinationsBigTitle {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  z-index: 111111;
+}
+
+
+
 .travelGrid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -211,4 +228,19 @@ textarea {
   grid-column: span 4;
   gap: 0;
   height: 33.333333333333333333vh;
+}
+
+.travelDestinationImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.travelDestinationImage:hover {
+  height: 101%;
+  width: 101%;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
