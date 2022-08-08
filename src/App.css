@@ -147,3 +147,47 @@ textarea {
   width: 650px;
   margin: 20px auto;
 }
+
+
+
+/**********************************************************
+    SERVICES
+**********************************************************/
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  gap: 15px;
+  position: fixed;
+  top: 25vh;
+  left: 10vw;
+  width: 80vw;
+}
+
+.serviceGridItem {
+  grid-column: span 4;
+  border: 1px solid #fff;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.servicesTitleHeading {
+  text-align: center;
+}
+
+.servicesTitleContainer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+
+.servicesItemIcon {
+  grid-area: 1 / 1 / span 1 / span 1;
+  height: 80px;
+}
+
+.serviceTitle {
+  grid-area: 1 / 2 / span 1 / span 11;
+}
