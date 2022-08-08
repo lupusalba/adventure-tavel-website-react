@@ -127,11 +127,9 @@
 }
 
 .contactForm {
-  border: 1px solid #fff;
   min-width: 650px;
   width: 60%;
   margin: 100px auto;
-  background: #070707;
 }
 
 input, form > button {
@@ -161,15 +159,17 @@ textarea {
   gap: 15px;
   position: fixed;
   top: 25vh;
-  left: 10vw;
-  width: 80vw;
+  left: 20vw;
+  width: 60vw;
 }
 
 .serviceGridItem {
   grid-column: span 4;
   border: 1px solid #fff;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 30px;
+  color: #000;
 }
 
 .servicesTitleHeading {
@@ -190,4 +190,25 @@ textarea {
 
 .serviceTitle {
   grid-area: 1 / 2 / span 1 / span 11;
+}
+
+
+/**********************************************************
+    Travel
+**********************************************************/
+.travelPage {
+  position: relative;
+}
+
+.travelGrid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  z-index: 11;
+}
+
+.travelDestination {
+  grid-column: span 4;
+  gap: 0;
+  height: 33.333333333333333333vh;
 }
