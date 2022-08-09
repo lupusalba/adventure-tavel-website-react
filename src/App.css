@@ -21,7 +21,6 @@
 }
 
 
-
 /**********************************************************
     NAVIGATION
 **********************************************************/
@@ -233,6 +232,8 @@ textarea {
   grid-column: span 4;
   gap: 0;
   height: 33.333333333333333333vh;
+  position: relative;
+  display: flex;
 }
 
 .travelDestinationImage {
@@ -241,6 +242,8 @@ textarea {
   background-position: center;
   height: 100%;
   width: 100%;
+  z-index: 0;
+  position: fixed;
 }
 
 .travelDestinationImage:hover {
@@ -248,4 +251,15 @@ textarea {
   width: 101%;
   overflow: hidden;
   transition: all 0.3s ease;
+}
+
+.travelDetinationInfo {
+  z-index: 111111111;
+  position: fixed;
+}
+
+.travelDetinationInfo > img {
+  max-width: 350px;
+  width: 80%;
+  margin: 0 auto
 }
