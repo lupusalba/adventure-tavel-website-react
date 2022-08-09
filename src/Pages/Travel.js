@@ -14,13 +14,21 @@ import luxuryResort from '../images/luxuryResort.jpg'
 
 console.log(safari)
 
+// function overlayOn() {
+//   document.getElementById('destinationsBigTitleOverlay').style.display = 'block'
+// }
+
+const overlayOff = () => {
+  document.getElementById('destinationsBigTitleOverlay').style.display = "none";
+}
+
 const Travel = () => {
   return (
-    <div className="travelPage onePage">
+    <div className="travelPage onePage" >
       <Logo />
       <Navigation />
 
-      <div className="destinationsBigTitle">
+      <div id="destinationsBigTitleOverlay" onClick={overlayOff}>
         <h1>See Our Destinations!</h1>
       </div>
       
