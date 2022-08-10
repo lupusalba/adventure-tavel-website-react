@@ -12,7 +12,6 @@ import trophy from '../images/trophy.png'
 const Services = () => {
   return (
     <div className="servicesPage onePage" style={{ backgroundImage: `url(${servicesBgImage})` }}>
-      <h1>services</h1>
       <Logo />
       <Navigation />
 

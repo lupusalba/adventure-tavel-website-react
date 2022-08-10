@@ -3,9 +3,13 @@ import Navigation from '../Components/Navigation'
 import Logo from '../Components/Logo'
 import aboutBgImage from '../images/aboutBackground2.jpg'
 
+
+
 const About = () => {
   return (
-    <div className="aboutPage onePage" style={{ backgroundImage: `url(${aboutBgImage})` }}>
+    <div className="aboutPage onePage" style={{
+      backgroundImage: `url(${aboutBgImage})`
+    }}>
       <Logo />
       <Navigation />
 

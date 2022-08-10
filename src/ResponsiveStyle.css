@@ -1,0 +1,52 @@
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1250px) {
+  .serviceGridItem,
+  .travelDestination {
+    grid-column: span 6;
+  }
+  .travelDestination {
+    min-height: 400px;
+  }
+  .travelDestinationInfo {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .serviceGridItem,
+  .travelDestination {
+    grid-column: span 12;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .onePage {
+    max-height: none;
+    min-height: 100vh;
+    height: 100%;
+    overflow: visible;
+  }
+  .intro {
+    margin: 200px auto 50px auto;
+    left: 50px;
+    right: 50px;
+    width: auto;
+    min-width: 90%;
+  }
+  /* .aboutPage {
+    background-color: rgba(0, 0, 0, 0.5);
+  } */
+  .contactForm,
+  input,
+  form > button,
+  textarea {
+    min-width: 90%;
+    width: 90%;
+    margin: auto auto 10px auto;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  
+}

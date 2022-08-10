@@ -38,7 +38,7 @@ const Travel = () => {
 
         <div className="travelDestination">
           <div className="travelDestinationImage" style={{ backgroundImage:`url(${safari})` }}></div>
-          <a className="travelDestinationInfo">
+          <a href='/destinations/Safari' className="travelDestinationInfo">
             <h2 className="destinationTitle">Safari</h2>
             <img src={icon} alt={icon}/>
           </a>
