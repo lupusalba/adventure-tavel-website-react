@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
-  overflow-x: hidden;
 }
 
 
@@ -353,4 +352,24 @@ textarea {
   font-size: 1.5em;
 }
 
+
+
+
+/**********************************************************
+    404 ERROR
+**********************************************************/
+.errorPageText {
+  text-align: center;
+  color: #000;
+  font-size: 1.5em;
+  padding: 200px 50px;
+}
+
+.errorPageText h1 {
+  margin-top: 0;
+}
+
+.errorPageNotFound {
+  opacity: 0.7;
+}
 
