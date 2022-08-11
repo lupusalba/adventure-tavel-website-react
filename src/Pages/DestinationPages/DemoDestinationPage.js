@@ -10,7 +10,8 @@ const DemoDestinationPage = () => {
     <div className="DemoDestinationPage destinationPage">
       <Logo />
       <Navigation />
-      <div className="coverImage" style={{ backgroundImage:`url(${Background})` }}>
+      <div className="coverImage">
+        <img src={Background} alt="test" />
         <h1 className="mainTitleDestinationPage">Title</h1>
       </div>
       <div className="destinationData">

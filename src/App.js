@@ -7,7 +7,7 @@ import Travel from './Pages/Travel'
 import Error from './Pages/Error'
 import SafariPage from './Pages/DestinationPages/SafariPage';
 import JunglePage from './Pages/DestinationPages/JunglePage'
-import AncientRuinPage from './Pages/DestinationPages/AncientRuinPage';
+import MountainPage from './Pages/DestinationPages/MountainPage';
 import DemoPage from './Pages/DestinationPages/DemoDestinationPage';
 import './App.css';
 import './ResponsiveStyle.css';
@@ -24,7 +24,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/destinations/safari" element={<SafariPage />} />
         <Route path="/destinations/jungle" element={<JunglePage />} />
-        <Route path="/destinations/ancient-ruin" element={<AncientRuinPage />} />
+        <Route path="/destinations/mountain" element={<MountainPage />} />
         <Route path="/destinations/demoPage" element={<DemoPage />} />
         <Route path="/*" element={<Error />} />
       </Routes>

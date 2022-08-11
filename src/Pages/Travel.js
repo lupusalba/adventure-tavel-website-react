@@ -38,7 +38,7 @@ const Travel = () => {
 
         <div className="travelDestination">
           <div className="travelDestinationImage" style={{ backgroundImage:`url(${safari})` }}></div>
-          <a href='/destinations/Safari' className="travelDestinationInfo">
+          <a href='/destinations/safari' className="travelDestinationInfo">
             <h2 className="destinationTitle">Safari</h2>
             <img src={icon} alt={icon}/>
           </a>
@@ -46,7 +46,7 @@ const Travel = () => {
 
         <div className="travelDestination">
           <div className="travelDestinationImage" style={{ backgroundImage:`url(${jungle})` }}></div>
-          <a className="travelDestinationInfo">
+          <a href='/destinations/jungle' className="travelDestinationInfo">
             <h2 className="destinationTitle">Jungle</h2>
             <img src={icon} alt={icon}/>
           </a>
@@ -54,7 +54,7 @@ const Travel = () => {
 
         <div className="travelDestination">
           <div className="travelDestinationImage" style={{ backgroundImage:`url(${mountain})` }}></div>
-          <a className="travelDestinationInfo">
+          <a href='/destinations/mountain' className="travelDestinationInfo">
             <h2 className="destinationTitle">mountain</h2>
             <img src={icon} alt={icon}/>
           </a>
@@ -62,7 +62,7 @@ const Travel = () => {
 
         <div className="travelDestination">
           <div className="travelDestinationImage" style={{ backgroundImage:`url(${cave})` }}></div>
-          <a className="travelDestinationInfo">
+          <a href='/destinations/demoPage' className="travelDestinationInfo">
             <h2 className="destinationTitle">Cave</h2>
             <img src={icon} alt={icon}/>
           </a>
@@ -70,7 +70,7 @@ const Travel = () => {
 
         <div className="travelDestination">
           <div className="travelDestinationImage" style={{ backgroundImage:`url(${ancientRuin})` }}></div>
-          <a className="travelDestinationInfo">
+          <a href='/destinations/demoPage' className="travelDestinationInfo">
             <h2 className="destinationTitle">Ancient Ruin</h2>
             <img src={icon} alt={icon}/>
           </a>
@@ -78,7 +78,7 @@ const Travel = () => {
 
         <div className="travelDestination">
           <div className="travelDestinationImage" style={{ backgroundImage:`url(${modernRuin})` }}></div>
-          <a className="travelDestinationInfo">
+          <a href='/destinations/demoPage' className="travelDestinationInfo">
             <h2 className="destinationTitle">Modern Ruin</h2>
             <img src={icon} alt={icon}/>
           </a>
@@ -86,7 +86,7 @@ const Travel = () => {
 
         <div className="travelDestination">
           <div className="travelDestinationImage" style={{ backgroundImage:`url(${diving})` }}></div>
-          <a className="travelDestinationInfo">
+          <a href='/destinations/demoPage' className="travelDestinationInfo">
             <h2 className="destinationTitle">diving</h2>
             <img src={icon} alt={icon}/>
           </a>
@@ -94,7 +94,7 @@ const Travel = () => {
 
         <div className="travelDestination">
           <div className="travelDestinationImage" style={{ backgroundImage:`url(${paragliding})` }}></div>
-          <a className="travelDestinationInfo">
+          <a href='/destinations/demoPage' className="travelDestinationInfo">
             <h2 className="destinationTitle">paragliding</h2>
             <img src={icon} alt={icon}/>
           </a>
@@ -102,7 +102,7 @@ const Travel = () => {
 
         <div className="travelDestination">
           <div className="travelDestinationImage" style={{ backgroundImage:`url(${luxuryResort})` }}></div>
-          <a className="travelDestinationInfo">
+          <a href='/destinations/demoPage' className="travelDestinationInfo">
             <h2 className="destinationTitle">luxury Resort</h2>
             <img src={icon} alt={icon}/>
           </a>

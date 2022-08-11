@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
+  overflow-x: hidden;
 }
 
 
@@ -279,6 +280,8 @@ textarea {
   transform: translateY(0%);
   text-transform: uppercase;
   opacity: 0;
+  text-decoration: none;
+  color: #fff;
 }
 
 .travelDestination:hover {
@@ -308,28 +311,41 @@ textarea {
 .destinationPage {
   text-align: center;
   margin-top: -35px;
+  position: relative;
 }
 
 
-.coverImage {
-  height: 80vh;
+/* .coverImage {
+  height: 100%;
   width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   z-index: 1;
+} */
+
+.coverImage img {
+  height: auto;
+  min-width: 100vw;
+  width: 100%;
+  display: block;
+  z-index: 1;
 }
 
 .mainTitleDestinationPage {
   z-index: 2;
   color: #fff;
-  transform: translateY(38vh);
   font-size: 3em;
+  position: absolute;
+  top: 40%;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 .destinationData {
-  width: 44vw;
+  width: 60%;
   height: auto;
   margin: 50px auto 100px auto;
   color: #000;

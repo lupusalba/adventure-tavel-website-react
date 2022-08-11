@@ -1,14 +1,21 @@
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 1250px) {
-  .serviceGridItem,
-  .travelDestination {
+  .serviceGridItem {
     grid-column: span 6;
   }
+  .travelPage {
+    overflow: visible;
+  }
   .travelDestination {
+    grid-column: span 12;
     min-height: 400px;
   }
   .travelDestinationInfo {
     opacity: 1;
+    transform: translateY(-70%);
+  }
+  .mainTitleDestinationPage {
+    top: 20%;
   }
 }
 
@@ -44,9 +51,14 @@
     width: 90%;
     margin: auto auto 10px auto;
   }
+  .destinationData {
+    width: 80%;
+  }
 }
 
 /* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-  
+@media screen and (max-width: 650px) {
+  .mainTitleDestinationPage {
+    top: 10%;
+  }
 }
