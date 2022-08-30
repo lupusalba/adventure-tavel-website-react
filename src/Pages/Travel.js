@@ -25,92 +25,98 @@ const overlayOff = () => {
 
 const Travel = () => {
   return (
-    <div className="travelPage onePage" >
-      <Logo />
-      <Navigation />
-
-      <div id="destinationsBigTitleOverlay" onClick={overlayOff}>
-        <h1>See Our Destinations!</h1>
-      </div>
-      
-
-      <div className="travelGrid">
-
-        <div className="travelDestination">
-          <div className="travelDestinationImage" style={{ backgroundImage:`url(${safari})` }}></div>
-          <a href='/destinations/safari' className="travelDestinationInfo">
-            <h2 className="destinationTitle">Safari</h2>
-            <img src={icon} alt={icon}/>
-          </a>
-        </div>
-
-        <div className="travelDestination">
-          <div className="travelDestinationImage" style={{ backgroundImage:`url(${jungle})` }}></div>
-          <a href='/destinations/jungle' className="travelDestinationInfo">
-            <h2 className="destinationTitle">Jungle</h2>
-            <img src={icon} alt={icon}/>
-          </a>
-        </div>
-
-        <div className="travelDestination">
-          <div className="travelDestinationImage" style={{ backgroundImage:`url(${mountain})` }}></div>
-          <a href='/destinations/mountain' className="travelDestinationInfo">
-            <h2 className="destinationTitle">mountain</h2>
-            <img src={icon} alt={icon}/>
-          </a>
-        </div>
-
-        <div className="travelDestination">
-          <div className="travelDestinationImage" style={{ backgroundImage:`url(${cave})` }}></div>
-          <a href='/destinations/demoPage' className="travelDestinationInfo">
-            <h2 className="destinationTitle">Cave</h2>
-            <img src={icon} alt={icon}/>
-          </a>
-        </div>
-
-        <div className="travelDestination">
-          <div className="travelDestinationImage" style={{ backgroundImage:`url(${ancientRuin})` }}></div>
-          <a href='/destinations/demoPage' className="travelDestinationInfo">
-            <h2 className="destinationTitle">Ancient Ruin</h2>
-            <img src={icon} alt={icon}/>
-          </a>
-        </div>
-
-        <div className="travelDestination">
-          <div className="travelDestinationImage" style={{ backgroundImage:`url(${modernRuin})` }}></div>
-          <a href='/destinations/demoPage' className="travelDestinationInfo">
-            <h2 className="destinationTitle">Modern Ruin</h2>
-            <img src={icon} alt={icon}/>
-          </a>
-        </div>
-
-        <div className="travelDestination">
-          <div className="travelDestinationImage" style={{ backgroundImage:`url(${diving})` }}></div>
-          <a href='/destinations/demoPage' className="travelDestinationInfo">
-            <h2 className="destinationTitle">diving</h2>
-            <img src={icon} alt={icon}/>
-          </a>
-        </div>
-
-        <div className="travelDestination">
-          <div className="travelDestinationImage" style={{ backgroundImage:`url(${paragliding})` }}></div>
-          <a href='/destinations/demoPage' className="travelDestinationInfo">
-            <h2 className="destinationTitle">paragliding</h2>
-            <img src={icon} alt={icon}/>
-          </a>
-        </div>
-
-        <div className="travelDestination">
-          <div className="travelDestinationImage" style={{ backgroundImage:`url(${luxuryResort})` }}></div>
-          <a href='/destinations/demoPage' className="travelDestinationInfo">
-            <h2 className="destinationTitle">luxury Resort</h2>
-            <img src={icon} alt={icon}/>
-          </a>
-        </div>
-
+    <div className="travelMegaWrapper">
+<Logo />
+        <Navigation />
+      <div className="travelHeading">
 
       </div>
+      <div className="travelPage" >
+        
 
+        <div id="destinationsBigTitleOverlay" onClick={overlayOff}>
+          <h1>See Our Destinations!</h1>
+        </div>
+
+
+        <div className="travelGrid">
+
+          <div className="travelDestination">
+            <div className="travelDestinationImage" style={{ backgroundImage: `url(${safari})` }}></div>
+            <a href='/destinations/safari' className="travelDestinationInfo">
+              <h2 className="destinationTitle">Safari</h2>
+              <img src={icon} alt={icon} />
+            </a>
+          </div>
+
+          <div className="travelDestination">
+            <div className="travelDestinationImage" style={{ backgroundImage: `url(${jungle})` }}></div>
+            <a href='/destinations/jungle' className="travelDestinationInfo">
+              <h2 className="destinationTitle">Jungle</h2>
+              <img src={icon} alt={icon} />
+            </a>
+          </div>
+
+          <div className="travelDestination">
+            <div className="travelDestinationImage" style={{ backgroundImage: `url(${mountain})` }}></div>
+            <a href='/destinations/mountain' className="travelDestinationInfo">
+              <h2 className="destinationTitle">mountain</h2>
+              <img src={icon} alt={icon} />
+            </a>
+          </div>
+
+          <div className="travelDestination">
+            <div className="travelDestinationImage" style={{ backgroundImage: `url(${cave})` }}></div>
+            <a href='/destinations/demoPage' className="travelDestinationInfo">
+              <h2 className="destinationTitle">Cave</h2>
+              <img src={icon} alt={icon} />
+            </a>
+          </div>
+
+          <div className="travelDestination">
+            <div className="travelDestinationImage" style={{ backgroundImage: `url(${ancientRuin})` }}></div>
+            <a href='/destinations/demoPage' className="travelDestinationInfo">
+              <h2 className="destinationTitle">Ancient Ruin</h2>
+              <img src={icon} alt={icon} />
+            </a>
+          </div>
+
+          <div className="travelDestination">
+            <div className="travelDestinationImage" style={{ backgroundImage: `url(${modernRuin})` }}></div>
+            <a href='/destinations/demoPage' className="travelDestinationInfo">
+              <h2 className="destinationTitle">Modern Ruin</h2>
+              <img src={icon} alt={icon} />
+            </a>
+          </div>
+
+          <div className="travelDestination">
+            <div className="travelDestinationImage" style={{ backgroundImage: `url(${diving})` }}></div>
+            <a href='/destinations/demoPage' className="travelDestinationInfo">
+              <h2 className="destinationTitle">diving</h2>
+              <img src={icon} alt={icon} />
+            </a>
+          </div>
+
+          <div className="travelDestination">
+            <div className="travelDestinationImage" style={{ backgroundImage: `url(${paragliding})` }}></div>
+            <a href='/destinations/demoPage' className="travelDestinationInfo">
+              <h2 className="destinationTitle">paragliding</h2>
+              <img src={icon} alt={icon} />
+            </a>
+          </div>
+
+          <div className="travelDestination">
+            <div className="travelDestinationImage" style={{ backgroundImage: `url(${luxuryResort})` }}></div>
+            <a href='/destinations/demoPage' className="travelDestinationInfo">
+              <h2 className="destinationTitle">luxury Resort</h2>
+              <img src={icon} alt={icon} />
+            </a>
+          </div>
+
+
+        </div>
+
+      </div>
     </div>
   )
 }

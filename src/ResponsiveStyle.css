@@ -28,6 +28,28 @@
 }
 
 @media screen and (max-width: 992px) {
+  /* .responisveNav {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+  } */
+
+  .navLink {
+    display: none;
+  }
+
+  .menuIcon {
+    display: block;
+    top: 20px;
+    right: 20px;
+  }
+
   .onePage {
     max-height: none;
     min-height: 100vh;
